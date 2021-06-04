@@ -28,5 +28,4 @@ done
 for key in "${!count[@]}"
 do
 	echo "Percentage of $key =" $((${count[$key]} * 100 / 50))
-	echo ${count[$key]}
 done
